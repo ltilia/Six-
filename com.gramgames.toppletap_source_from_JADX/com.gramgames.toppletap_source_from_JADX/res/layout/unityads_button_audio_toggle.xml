@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="3dp" android:paddingRight="3dp" android:paddingBottom="3dp" android:layout_width="30dp" android:layout_height="30dp">
+    <View android:background="@drawable/unityads_icon_speaker_triangle" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginLeft="-15dp" android:layout_centerVertical="true" />
+    <View android:background="@drawable/unityads_icon_speaker_base" android:layout_width="10dp" android:layout_height="15dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/unityAdsMuteButtonSpeakerWaves" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="18dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <View android:background="@drawable/unityads_icon_speaker_waves" android:layout_width="2dp" android:layout_height="10dp" android:layout_centerVertical="true" />
+        <View android:background="@drawable/unityads_icon_speaker_waves" android:layout_width="2dp" android:layout_height="15dp" android:layout_marginLeft="4dp" android:layout_centerVertical="true" />
+        <View android:background="@drawable/unityads_icon_speaker_waves" android:layout_width="2dp" android:layout_height="24dp" android:layout_marginLeft="8dp" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="15dp" android:textStyle="1" android:textColor="#ffffffff" android:id="@id/unityAdsMuteButtonSpeakerX" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="18dp" android:text="@string/unityads_mute_character" android:layout_centerVertical="true" />
+</RelativeLayout>
